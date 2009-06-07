@@ -1,0 +1,1 @@
+﻿package {	import flash.events.*;	public class ButtonPause extends Button {				override function OnClick(e:Event) {			visible = false;			Player.GetInstance().mcControls.btnPlay.visible = true;			Player.GetInstance().Pause();		}	}}

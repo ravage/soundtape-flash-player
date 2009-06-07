@@ -1,0 +1,1 @@
+﻿package {	import flash.events.*;	import flash.display.*;		public class Button extends SimpleButton {		public function Button() {			addEventListener(MouseEvent.CLICK, OnClick);		}				function OnClick(e:Event) {			trace('CLICK');		}	}}
