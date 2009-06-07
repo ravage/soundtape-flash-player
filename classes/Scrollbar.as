@@ -1,0 +1,1 @@
+﻿package {	public class Scrollbar {		public function Scrollbar() {			btnUp.addEventListener(MouseEvent.CLICK, OnUpClick);			btnDown.addEventListener(MouseEvent.CLICK, OnDownClick);		}				private function OnUpClick(e:MouseEvent) {		}				private function OnDownClick(e:MouseEvent) {		} 	}	}
