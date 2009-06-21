@@ -1,0 +1,1 @@
+﻿package {	import flash.events.*;	public class ButtonStop extends Button {		override function OnClick(e:Event) {			Player.GetInstance().Stop();		}	}}
